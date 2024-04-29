@@ -41,9 +41,9 @@ checkBtn.addEventListener("click", () => {
     picToRotate.addEventListener("transitionend", () => {
         result.style.fontSize = "2rem";
         if (userArray.join("") === reverseUserArray.join("")) {
-            result.innerText = `${userInput} is a palindrome`;
+            result.innerText = `"${userInput}" is a palindrome`;
         } else {
-            result.innerText = `${userInput} is not a palindrome`
+            result.innerText = `"${userInput}" is not a palindrome`
         }
     }) 
 });
